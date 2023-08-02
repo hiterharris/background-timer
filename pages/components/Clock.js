@@ -11,7 +11,7 @@ const Clock = ({ seconds, isActive }) => {
       strokeWidth={20}
       trailStrokeWidth
     >
-      {({ remainingTime }) => `${remainingTime}s`}
+      {({ remainingTime }) => `${remainingTime}`}
     </CountdownCircleTimer>
   );
 };
